@@ -1,0 +1,65 @@
+*{
+    font-family: sans-serif;
+}
+.navbar{
+    height: 80px;
+}
+.carousel-inner .carousel-caption {
+    background: rgba(169, 151, 151, 0.3);
+    border-radius: 7px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.fixedimg1{
+  background-image: url(../images/vitamin-c-serum-skincare-routine.jpg);
+}
+.fixedimg {
+    background-attachment: fixed;
+    background-size: cover;
+    height:250px;
+}
+.fixedimg2{
+    background-image: url(../images/Orange_Face-500x373.jpg);
+}
+.btnbefo {
+    position: relative;
+    left: 30px;
+}
+.btnbefo:hover::before {
+    position: absolute;
+    content: "";
+    border-width: 10px;
+    border-style: dashed;
+    border-color: transparent transparent #a3d2ff transparent;
+    top: 20px;
+    left: 13px;
+    
+}
+.btnbefo:hover::after {
+    position: absolute;
+    content: "copy to clipboard ";
+    height: 40px;
+    width: 80px;
+    background-color:#b3daff; 
+    top: 40px;
+    left: -15px;
+    border-radius: 5px;
+   
+}
+.navbar-brand:hover {
+    text-shadow: 10px 10px 20px gray, -10px -10px 20px gray;
+}
+.here{
+    color: #b3daff
+}
+.here:hover{
+    color: #96c5f0;
+}
